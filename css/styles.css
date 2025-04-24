@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background-color: rgb(246, 248, 249);
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  text-align: left;
+  white-space: nowrap;
+  align-content: center;
+  background-color: white;
+}
+
+header img,
+header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 3.5em;
+}
+
+summary h2 {
+  display: inline;
+}
+
+header img {
+  height: 100%;
+  margin-right: 10px;
+}
+
+#header-container {
+  height: 80%;
+  padding: 0 10px 0 10px;
+}
+
+main {
+  width: 100%;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-color: rgb(246, 248, 249);
+}
+
+#main-container {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.brd-rds-left {
+  border-radius: 10px 0px 0px 10px;
+}
+.brd-rds-right {
+  border-radius: 0px 10px 10px 0px;
+}
+.brd-rds-top {
+  border-radius: 10px 10px 0px 0px;
+}
+.brd-rds-bottom {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.main-content {
+  background-color: white;
+  padding: 0px 60px 0px 60px;
+  width: 100%;
+}
+
+#main-content-header {
+  padding: 15px 0px 15px 0px;
+}
+
+#main-content-tasks {
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.btn-primary,
+.btn-secondary {
+  font-size: 0.9em;
+  padding: 8px 15px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: rgb(69, 171, 233);
+  color: white;
+  border: 2px solid rgb(69, 171, 233);
+  border-radius: 5px;
+}
+
+.btn-secondary {
+  background-color: white;
+  border: 2px solid lightgray;
+  color: lightgray;
+  border-radius: 5px;
+}
+
+.pdng-top-20 {
+  padding-top: 20px;
+}
+
+.pdng-bottom-20 {
+  padding-bottom: 20px;
+}
+
+details {
+  margin-bottom: 30px;
+}
+
+summary {
+  margin-bottom: 15px;
+}
+
+.task-container {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.status {
+  font-size: 0.7em;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.editorial {
+  background-color: rgb(69, 171, 233);
+}
+
+.q1-goals {
+  background-color: rgb(156, 114, 228);
+}
+
+.recruiting {
+  background-color: rgb(100, 192, 169);
+}
+
+.mobile {
+  background-color: rgb(242, 158, 51);
+}
+
+.sales {
+  background-color: rgb(176, 201, 38);
+}
+
+.website {
+  background-color: rgb(216, 99, 160);
+}
+
+#footer-text {
+  text-align: center;
+  font-size: 0.8em;
+  color: rgb(129, 129, 129);
+}
+
+.red {
+  color: red;
+}

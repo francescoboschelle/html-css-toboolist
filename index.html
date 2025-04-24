@@ -3,7 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Gothic+Expanded+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./img/logo.png" />
+    <title>Toboolist</title>
   </head>
-  <body></body>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div id="header-container">
+        <img src="./img/Logo.png" alt="Logo" />
+        <h1>Toboolist</h1>
+      </div>
+    </header>
+
+    <!-- Contenuto Principale -->
+    <main id="main-container">
+      <!-- Buttons -->
+      <div class="main-content brd-rds-right brd-rds-top">
+        <section id="main-content-header">
+          <button class="btn-primary">Add Task</button>
+          <button class="btn-secondary">Add Section</button>
+        </section>
+      </div>
+
+      <hr />
+
+      <!-- Tasks -->
+      <div
+        class="main-content brd-rds-left brd-rds-bottom pdng-top-20 pdng-bottom-20"
+      >
+        <!-- New Task -->
+        <details>
+          <summary>
+            <h2>New Task</h2>
+          </summary>
+          <div class="task-container">
+            <i class="fa-regular fa-circle-check" style="color: #63e6be"></i>
+            Quarterly Newsletter
+            <span class="status editorial">Editorial</span>
+          </div>
+        </details>
+        <!-- Today -->
+        <details>
+          <summary>
+            <h2>Today</h2>
+          </summary>
+          <div class="task-container">
+            <i class="fa-regular fa-circle-check" style="color: #63e6be"></i>
+            Recruiting blog post
+            <span class="status editorial">Editorial</span>
+          </div>
+          <div class="task-container">
+            <i class="fa-regular fa-circle-check" style="color: #63e6be"></i>
+            Mobile app launch
+            <span class="status q1-goals">Q1 Goals</span>
+          </div>
+          <div class="task-container">
+            <i class="fa-regular fa-circle-xmark" style="color: #e66363"></i>
+            Interview John H.
+            <span class="status recruiting">Recruiting</span>
+          </div>
+          <div class="task-container">
+            <i class="fa-regular fa-circle-check" style="color: #63e6be"></i>
+            Summit update to mobile storefronts
+            <span class="status mobile">Mobile</span>
+          </div>
+        </details>
+        <!-- Upcoming -->
+        <details>
+          <summary>
+            <h2>Upcoming</h2>
+          </summary>
+          <div class="task-container">
+            <i class="fa-regular fa-circle-xmark" style="color: #e66363"></i>
+            Schedule meeting with Alex
+          </div>
+          <div class="task-container">
+            <i class="fa-regular fa-circle-check" style="color: #63e6be"></i>
+            Homepage refresh
+            <span class="status website">Website</span>
+          </div>
+          <div class="task-container">
+            <i class="fa-regular fa-circle-check" style="color: #63e6be"></i>
+            Onboard new Sales team members
+            <span class="status sales">Sales</span>
+          </div>
+          <div class="task-container">
+            <i class="fa-regular fa-circle-check" style="color: #63e6be"></i>
+            Review editorial calendar
+            <span class="status editorial">Editorial</span>
+          </div>
+        </details>
+        <!-- Made with <3 -->
+        <p id="footer-text">
+          Made with <span class="red">&hearts;</span> by <b>Francesco</b>
+        </p>
+      </div>
+    </main>
+  </body>
 </html>
